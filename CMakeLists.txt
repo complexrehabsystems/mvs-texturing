@@ -4,6 +4,7 @@ LIST(APPEND CMAKE_MODULE_PATH "${CMAKE_SOURCE_DIR}/elibs/tbb")
 
 project(Texturing)
 include(ExternalProject)
+set(CMAKE_MACOSX_BUNDLE OFF)
 
 if(NOT CMAKE_BUILD_TYPE)
     message(STATUS "Setting build type to 'RELWITHDEBINFO' as none was specified.")

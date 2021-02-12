@@ -1,4 +1,5 @@
 build/
+build-ios/
 elibs/
 !elibs/CMakeLists/*
 !elibs/CMakeLists.txt
