@@ -11,8 +11,8 @@ externalproject_add(ext_mapmap
 
 externalproject_add(ext_rayint
     PREFIX          ext_rayint
-    GIT_REPOSITORY  https://github.com/nmoehrle/rayint.git
-    GIT_TAG         cuda
+    GIT_REPOSITORY  https://github.com/complexrehabsystems/rayint.git
+    GIT_TAG         ios-build
     UPDATE_COMMAND  ""
     SOURCE_DIR      ${CMAKE_SOURCE_DIR}/elibs/rayint
     CONFIGURE_COMMAND ""
